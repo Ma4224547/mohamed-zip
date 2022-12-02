@@ -1,0 +1,93 @@
+* {
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+}
+nav {
+      background-color: black;
+}
+.card {
+      width: 450px;
+      height: 215px;
+      padding-top: 5px;
+      background-color: white;
+      margin-top: 10px;
+      margin-left: 15px;
+      border-radius: 10px;
+      box-shadow: 1px 2px 0 0 #0000006e;
+      margin-bottom: 20px;
+      
+}
+.it1 ,.it2, .it3 ,.it4 ,.it5 ,.it6 ,.it7 {
+      width: 430px;
+      display: flex;
+      height: 50px;
+      flex-direction: row;
+      margin: 10px;
+      justify-content: space-between;
+  }
+  .leg_1 ,.leg_2 ,.leg_3 ,.leg_4 ,.leg_5 ,.leg_6 {
+      display: flex;
+  }
+
+
+img {
+      width: 60px;
+      margin-top: 4px;
+      height: 25px;
+}
+h5 {
+      margin-left: 5px;
+      margin-right: 10px;
+      font-size: 18px;
+      font-weight: 700;
+}
+h5 span {
+      text-transform: uppercase;
+      font-weight: 500;
+      color: gray;
+}
+#icon {
+      font-size: 22px;
+}
+h6 {
+      margin-left: 16px;
+      font-size: 15px;
+      color: gray;
+      font-weight: 500 
+}
+h6 span {
+      text-transform: capitalize;
+      color: green;
+}
+button {
+      width: 150px;
+      padding: 6px;
+      background-color: rgb(55, 142, 55);
+      color: white;
+      border-radius: 5px;
+      font-size: 20px;
+      height: 40px;
+      text-transform: capitalize;
+      align-self: center;
+      margin-right: 5px;
+}
+h4 {
+      font-size: 44px;
+      line-height: 16px;
+}
+h4 span {
+      font-size: 13px;
+      color: grey;
+}
+.itineraries {
+      display: flex;
+      justify-content: space-between;
+      height: 72px;
+      margin: 10px;
+      padding: 8px;
+}
+.time #stop {
+      color: red;
+}
